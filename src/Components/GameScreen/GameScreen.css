@@ -1,0 +1,200 @@
+.svg2{
+    position: absolute;
+    width: 1570.39px;
+    bottom: -100px;
+    left: -180px;
+    z-index: 3;
+}
+
+.fox2 > img {
+    width: 672px;
+    position: absolute;
+    top: -150px;
+    left: 1500px;
+
+}
+
+.fox2{ z-index: 2;
+position: absolute}
+
+.cloud2 {
+    position: relative;
+    right: 200px;
+    top: 0px;
+    z-index: 0;
+
+}
+
+.cloud2 > svg {     width: 700px;
+    z-index: 0;
+}
+
+
+.cloud-text2 {
+    font-family: "Quicksand", serif;
+    color: white;
+    position: absolute;
+    font-size: 64px;
+    left: 270px;
+    top: 160px;
+}
+
+
+.professor{
+    position: absolute;
+    top: 300px;
+    right: -1000px
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+#pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid yellow;
+    border-bottom: 60px solid yellow;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+#squareinside {
+    width: 100px;
+    height: 100px;
+    background: gray;
+}
+
+#circleinside {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#triangle-upinside {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid gray;
+}
+
+#pacmaninside {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid rgb(128, 128, 128);
+    border-left: 60px solid rgb(128, 128, 128);
+    border-bottom: 60px solid rgb(128, 128, 128);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.selectable{
+    z-index: 10
+}
+
+.pic{
+    position: relative;
+    bottom: -1920px;
+}
+.pic > img {
+    z-index: 1;
+
+}
+.my-draggable {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background-color: #cca;
+    z-index: 10;
+}
+
+#square-form{
+    position: absolute;
+    top: -300px;
+    left: 200px;
+    z-index: 2;
+    background-color: beige;
+    width: 180px;
+    height: 180px;
+
+}
+
+
+#circle-form{
+    position: absolute;
+    top: -800px;
+    left: 100px;
+    z-index: 2;
+    background-color: beige;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+#diamond-form{
+    position: absolute;
+    top: -500px;
+    left: 800px;
+    rotate: 45deg;
+    z-index: 2;
+    background-color: beige;
+    width: 180px;
+    height: 180px;
+}
+
+#play-game{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-family: Quicksand;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+}
+
+/* Define the keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Create a class that uses the fadeIn animation */
+.fade-in {
+    animation: fadeIn 2s forwards; /* 2s is the duration of the animation */
+}

@@ -1,0 +1,64 @@
+.pos-section{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos-section > img {
+    width: 400px;
+}
+
+.bottom-cover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+.fox-end{
+    position: absolute;
+    z-index: 0;
+    top: 44px;
+    right: -100px;
+    width: 850px;
+}
+
+.end-input{
+    width: 900px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 250px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding-left: 30px ;
+}
+
+.end-button{
+    width: 540px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FE9100;
+    bottom: 70px;
+    z-index: 2;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+    font-family: Quicksand;
+    text-decoration: none;
+    color: white;
+
+}

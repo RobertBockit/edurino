@@ -1,0 +1,70 @@
+.logo1{
+    transform: translateX(750px);
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 194px;
+    height: 109px;
+}
+
+.fox{
+    width: 792px;
+    position: absolute;
+    bottom: 500px;
+    right: -100px;
+    z-index: 1
+
+}
+
+.root1{
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    aspect-ratio: 9/16;
+    overflow: hidden;
+}
+
+.cloud1{
+    position: relative;
+    right: 200px;
+    top: 300px;
+    z-index: 0;
+}
+
+.cloud-text1 { top: 150px; left: 250px;    font-family: "Quicksand", serif;
+    color: white;
+    position: absolute;
+    font-size: 64px;}
+
+.svg1{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+
+}
+
+
+.boxes{
+    width :100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 2;
+    bottom: 45px;
+}
+
+.boxes > div > img { width: 270px; height: 270px;}
+
+.boxes > div > p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    width: 270px;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+
+}

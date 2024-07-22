@@ -1,0 +1,56 @@
+.root-div{ background-image: url("/src/assets/edurino-background.jpg");
+    background-position: -303px 0;
+    background-size: 2839px 1597px;
+    width: 1080px;
+    height: 1920px;
+    position: relative;
+    aspect-ratio: 9/16;
+    overflow: hidden;
+}
+
+.logo{
+    transform: translateX(219px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 683px;
+    height: 384px;
+}
+
+
+.svg{position: absolute; bottom: 0; width: 100%; left: 0; }
+
+.text{
+    font-family: "Quicksand", serif;
+    left: 50%;
+    right: 50%;
+    width:100%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 00px;
+    font-size: 60px;
+    display: flex;
+    padding:0;
+}
+
+
+.cloud{
+    position: relative;
+    right: -300px;
+    top: 400px
+}
+
+.cloud-text{
+    font-family: "Quicksand", serif;
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    font-size: 64px;
+}
+

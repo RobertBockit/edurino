@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Link, Route, Switch } from "wouter";
+
+
+import StartScreen from "./Components/StartScreen/StartScreen.jsx";
+import GameSelectionScreen from "./Components/GameSelectionScreen/GameSelectionScreen.jsx";
+import GameScreen from "./Components/GameScreen/GameScreen.jsx";
+import EndScreen from "./Components/EndScreen/EndScreen.jsx";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    return  <Switch>
+                <Route path="/start" component={StartScreen} />
+                <Route path="/game-selection" component={GameSelectionScreen} />
+                 <Route path="/game" component={GameScreen} />
+                <Route path="/end" component={EndScreen} />
+
+    </Switch>
 }
 
 export default App
